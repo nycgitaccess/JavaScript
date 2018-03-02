@@ -1,0 +1,35 @@
+body{
+  margin: 0 auto;
+  text-align: center;
+}
+#container{
+  margin-left: 10%;
+}
+#main0{
+  display: flex;
+  flex-flow: wrap;
+}
+
+#main1{display: flex;
+flex-flow: wrap;}
+
+#main2{display: flex;
+flex-flow: wrap;}
+
+#main3{display: flex;
+flex-flow: wrap;}
+
+#main4{display: flex;
+flex-flow: wrap;}
+
+#main5{display: flex;
+flex-flow: wrap;}
+
+#main6{display: flex;
+flex-flow: wrap;}
+
+#main7{display: flex;
+flex-flow: wrap;}
+
+#main8{display: flex;
+flex-flow: wrap;}
