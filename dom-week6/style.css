@@ -1,0 +1,228 @@
+
+.curiculamBtn
+{
+    position: relative;
+    z-index: 1;
+    top: -1074px;
+
+    width: 100%;
+    margin: 1px;
+
+    opacity: .8;
+}
+.search
+{
+    position: relative;
+    top: -1400px;
+    left: 1010px;
+
+    width: 10%;
+    height: 10%;
+}
+#resultshowDiv
+{
+    position: relative;
+    top: -690px;
+    left: 900px;
+
+    overflow: auto;
+
+    width: 400px;
+    height: 600px;
+    padding: 10px;
+
+    color: white;
+    border: 10px dotted black;
+    border-radius: 5px;
+    background: black;
+}
+.robote
+{
+    position: relative;
+    top: -30px;
+    left: 200px;
+}
+
+.signal
+{
+    position: relative;
+    left: 140px;
+
+    width: 5px;
+    height: 0;
+
+    border: 5px solid transparent;
+    border-top: 10px solid #777;
+    border-bottom: 80px solid #888;
+}
+
+
+.chead
+{
+    position: relative;
+    left: 70px;
+
+    width: 150px;
+    height: 150px;
+
+    border-bottom: 40px solid #666;
+    border-radius: 60px 60px 10px 10px;
+    background:         radial-gradient(circle, white 15%, transparent 40%), #cc5;
+    background:    -moz-radial-gradient(circle, white 15%, transparent 40%), #cc5;
+    background: -webkit-radial-gradient(circle, white 15%, transparent 40%), #cc5;
+    background-size: 75px 150px;
+}
+
+.magic
+{
+    -webkit-animation: blink .9s infinite;
+       -moz-animation: blink .9s infinite;
+            animation: blink .9s infinite;
+}
+.cbody
+{
+    width: 140px;
+    height: 0;
+
+    border-top: 470px solid #bc6;
+    border-right: 75px solid transparent;
+    border-left: 75px solid transparent;
+    border-radius: 20px 20px 100px 100px;
+}
+.left
+{
+    font-family: 'Poller One', verdana, arial, sans-serif;
+    font-size: 250px;
+    font-weight: bold;
+
+    position: relative;
+    z-index: -1;
+    top: -450px;
+    left: -190px;
+
+    -webkit-transform: rotate(200deg);
+       -moz-transform: rotate(200deg);
+            transform: rotate(200deg);
+
+    color: #666;
+}
+.right
+{
+    font-family: 'Poller One', verdana, arial, sans-serif;
+    font-size: 250px;
+    font-weight: bold;
+
+    position: relative;
+    z-index: -1;
+    top: -740px;
+    left: 190px;
+
+    -webkit-transform: scaleY(-1) rotate(20deg);
+       -moz-transform: scaleY(-1) rotate(20deg);
+            transform: scaleY(-1) rotate(20deg);
+
+    color: #666;
+}
+.cfoot
+{
+    position: relative;
+    z-index: -1;
+    top: -10px;
+    left: 110px;
+
+    width: 40px;
+    height: 40px;
+
+    border: 15px solid #999;
+    border-radius: 40px;
+    background: #ccc;
+}
+
+@keyframes blink
+{
+    25%
+    {
+        background: radial-gradient(circle, black 15%, transparent 40%), #cc5;
+        background-size: 75px 150px;
+    }
+    50%
+    {
+        background: radial-gradient(circle, blue 15%, transparent 40%), #cc5;
+        background-size: 75px 150px;
+    }
+    75%
+    {
+        background: radial-gradient(circle, red 15%, transparent 40%), #cc5;
+        background-size: 75px 150px;
+    }
+}
+
+
+.chead:hover
+{
+    cursor: pointer;
+}
+
+
+/*******modal***********/
+
+
+
+.modal
+{
+    /*display: block;*/
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+
+    overflow: auto;
+
+    width: 100%;
+    height: 100%;
+
+    background-color: rgba(0, 0, 0, .5);
+}
+.modal-content
+{
+    overflow: auto;
+
+    width: 70%;
+    margin: 20% auto;
+    padding: 20px;
+
+    animation-name: modalopen;
+    animation-duration: 2s;
+
+    background-color: #f4f4f4;
+    box-shadow: 0 5px 8px 0 rgba(0,0,0,.2), 0 5px 8px 0 rgba(0,0,0,.2);
+}
+
+.closeBtn
+{
+    font-size: 50px;
+
+    float: right;
+
+    color: #ccc;
+}
+
+.closeBtn:hover,
+.closeBtn:focus
+{
+    cursor: pointer;
+    text-decoration: none;
+
+    color: #000;
+}
+@keyframes modalopen
+{
+    from
+    {
+        opacity: 0;
+    }
+    to
+    {
+        opacity: 1;
+    }
+}
