@@ -19,7 +19,9 @@ if () { console.log('SAME TYPE'); }
 If x equals 7, and the only other statement is x = x % 3, what would be the new value of x?
 
 --------------------------------------------------------------------------------------------------------------------------
+
 Week 2
+
 -------------------------------------------------------------------------------------------------------------------------Create a function that takes 3 arguments and returns the sum of the three arguments.
 
 Create a function named colorCar that receives a color, and prints out, "a red car" for example. (Hint: put it in your file and run it like before.)
